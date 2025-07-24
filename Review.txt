@@ -1,0 +1,14 @@
+
+Missing (in resume):
+- aws,
+- ci/cd.
+- communication
+- docker,
+- git
+- python
+- required.
+- rest,
+Matching Words:
+- developer
+- experienced
+- strong

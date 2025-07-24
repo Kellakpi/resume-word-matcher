@@ -1,0 +1,1 @@
+Experienced software developer with strong skills in Python, Git, REST APIs, and teamwork. Built projects using Flask and PostgreSQL.

@@ -1,0 +1,1 @@
+We are looking for a Python developer experienced in REST, Docker, AWS, and CI/CD. Strong communication and Git experience required.
