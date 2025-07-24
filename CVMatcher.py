@@ -28,7 +28,7 @@ print("\nMissing (in resume)") # Print all the words that are on the job descrip
 for word in sorted(missing):
     print("-", word)
 
-with open("Review.txt", "w") as output:
+with open("Review.txt", "w") as output:     #Opens a file with the results 
     output.write("\nMissing (in resume):\n")
     for word in sorted(missing):
         output.write(f"- {word}\n")
