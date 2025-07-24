@@ -20,15 +20,15 @@ filtered_job = set(wordjf) - uselesswords
 matches = filtered_resume & filtered_job
 missing = filtered_job - filtered_resume
 
-print("\nMatching Words:") # Print all the words that match togheter 
+print("\nMatching Words:") # Print all the words that match togheter.
 for word in sorted(matches):
     print("-", word)
 
-print("\nMissing (in resume)") # Print all the words that are on the job description and not in the resume
+print("\nMissing (in resume)") # Print all the words that are on the job description and not in the resume.
 for word in sorted(missing):
     print("-", word)
 
-with open("Review.txt", "w") as output:     #Opens a file with the results 
+with open("Review.txt", "w") as output:     #Opens a file with the results.
     output.write("\nMissing (in resume):\n")
     for word in sorted(missing):
         output.write(f"- {word}\n")
